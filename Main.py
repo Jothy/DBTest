@@ -10,7 +10,7 @@ from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-print('Testing stash...')
+print('After stash...')
 
 Base=declarative_base()
 
