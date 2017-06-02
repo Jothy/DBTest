@@ -10,7 +10,10 @@ from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
+print('Testing stash...')
+
 Base=declarative_base()
+
 
 class Patient(Base):
     __tablename__='Patient'
