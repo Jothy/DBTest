@@ -13,7 +13,7 @@ from sqlalchemy import DATE
 import datetime
 
 
-print('Testing GitHub...')
+print('Testing GitHub done!')
 
 Base=declarative_base()
 
